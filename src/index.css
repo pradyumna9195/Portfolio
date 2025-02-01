@@ -1,0 +1,31 @@
+@tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      @apply bg-white text-gray-900; /* Changed background and text color */
+    }
+
+    .section-padding {
+      @apply py-20 md:py-32;
+    }
+
+    .gradient-bg {
+      @apply bg-gradient-to-br from-gray-100 to-gray-200; /* Changed gradient colors */
+    }
+
+    .card {
+      @apply bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-200; /* Changed background and border color */
+    }
+
+    .heading {
+      @apply text-3xl md:text-4xl font-bold text-gray-900 mb-6; /* Changed text color */
+    }
+
+    .subheading {
+      @apply text-xl text-gray-600 mb-12 max-w-2xl; /* Changed text color */
+    }
